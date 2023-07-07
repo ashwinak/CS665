@@ -1,2 +1,2 @@
 # CS665
-Software Design and Patterns
+## Software Design and Patterns
