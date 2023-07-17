@@ -23,6 +23,7 @@ public class App {
 
         bankApp.createCustomer("Alice", aliceId, getDate("June 1, 2022"));
 
+
         bankApp.createAccount(aliceId, AccountType.Checking,
                 "01-001",  getDate("June 1, 2022"), 1000);
 

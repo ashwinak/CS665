@@ -81,7 +81,10 @@ public abstract class Account {
             - set the ending balance of the transaction as the account's current balance
             - invoke the transaction's print method
              */
-
+            deposit(t.getTransactionAmount());
+            transactionList.add(t);
+            currentBalance = t.getEndingBalance();
+            printStatement(t.getTransactionDate());
 
 
         } else if (t instanceof WithdrawTransaction) {
@@ -92,6 +95,10 @@ public abstract class Account {
             - set the ending balance of the transaction as the account's current balance
             - invoke the transaction's print method
              */
+            withdraw(t.getTransactionAmount());
+            transactionList.add(t);
+            currentBalance = t.getEndingBalance();
+            printStatement(t.getTransactionDate());
 
 
         } else if (t instanceof TransferTransaction) {
@@ -127,9 +134,13 @@ public abstract class Account {
         System.out.println("\n\tTransactions for Account " + this.accountId + " Primary Owner: " + this.primaryOwner.getName() + "\n");
 
         /* Fill in the code to iterate over the transactionList and invoke the print method for each transaction */
-
+        System.out.println("printStatement method");
+        for (int i=0;i<transactionList.size(); i++) {
+            System.out.println(transactionList.get(i).getTransactionDate() +
+                    "  " + transactionList.get(i).getDescription() +
+                    "  " + transactionList.get(i).getTransactionAmount());
+        }
     }
-
 }
 
 
