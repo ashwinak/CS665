@@ -33,10 +33,7 @@ public class Customer {
     public void addAccount(Account account) {
 
         /* Fill in the code to add the account to the customer's accountList */
-
-        accountList.add(account);
-
-
+        this.accountList.add(account);
     }
 
 
@@ -45,15 +42,9 @@ public class Customer {
         System.out.println("\nBEGIN ACCOUNT STATEMENT - " + this.getName() + " - " + DateFormat.getDateInstance().format(toDate));
 
         /* Fill in the code to iterate over the customer's accountList and invoke printStatement for each account */
-        System.out.println("Transactions for Account " + accountList.get(0).getAccountId() + "  " + "Primary Owner: " +
-                accountList.get(0).getPrimaryOwner());
 
         for (Account account : accountList) {
-            System.out.println(account.getOpenDate() +
-                    account.getAccountId() +
-                    account.getCurrentBalance() +
-                    account.getPrimaryOwner() +
-                    account.getCurrentBalance());
+            account.printStatement(toDate);
         }
         System.out.println("\nEND ACCOUNT STATEMENT\n");
     }

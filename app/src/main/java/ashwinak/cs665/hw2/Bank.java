@@ -37,7 +37,6 @@ public class Bank {
                 throw new BankException("Customer ID Already Exist");
             } else {
                 customerMap.put(customerId,cust);
-//                System.out.println(cust.getName());
             }
         }
         catch (BankException e) {
@@ -53,8 +52,6 @@ public class Bank {
 
         try {
             if (customerMap.containsKey(customerId)) {
-//                System.out.println("lookup customer");
-//                System.out.println(customerMap.get(customerId).getName());
                 return customerMap.get(customerId);
             }
         } catch (BankException e) {
