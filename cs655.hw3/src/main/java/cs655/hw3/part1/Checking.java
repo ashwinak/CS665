@@ -1,10 +1,6 @@
 package cs655.hw3.part1;
 
-public class Checking extends Account {
+public interface Checking  {
+    String getAccountType();
 
-    @Override
-    public void createCheckingAccount() {
-
-
-    }
 }
