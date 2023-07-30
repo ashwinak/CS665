@@ -7,7 +7,6 @@ public class App {
      *
      * @param args
      * Simple factory method creates an object from Bankfactory concrete class.
-     *
      * The bank factory concrete class invokes the objects via different types of customers implementing the customer interface.
      *
      *

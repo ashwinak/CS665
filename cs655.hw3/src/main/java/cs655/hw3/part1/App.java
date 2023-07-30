@@ -4,9 +4,9 @@ public class App {
     public static void main(String[] args) {
 
         /*
-          Creates Basic version of the account.  Account factory is the abstract class creating checking and savings account.
+          Creates Basic version of the account.  Account factory is the abstract factory class creating checking and savings account.
           Basic account factory is concrete class extending account factory. The basicChecking object of type checking creates
-          the basic checking account.
+          the basic checking account inside Basic Account factory abstract class.
           The basicSavings object of type Savings creates the basic Savings account.
          */
         System.out.println("--Testing Basic version of Accounts--");
