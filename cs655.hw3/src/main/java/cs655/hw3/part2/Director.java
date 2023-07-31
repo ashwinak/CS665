@@ -1,7 +1,10 @@
 package cs655.hw3.part2;
 
 public class Director {
-
+    /**
+     * Use only one constructor in the directory class: This is a correction!!
+     * @param builder
+     */
     public void buildBoA(Builder builder) {
          builder.createHeader("Creating Bank of America Header...")
                 .createSidebar("Creating Bank of America Sidebar...")

@@ -5,6 +5,9 @@ public class ABCValidator {
         if (name == "Alice" && phNo == "222-333-4444") {
             return true;
         }
-        return false;
+        else {
+            return false;
+        }
+
     }
 }

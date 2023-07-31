@@ -4,15 +4,6 @@ public class Customer {
     String name;
     String  phNo;
     String address;
-    boolean backgroundCheck;
-
-    public boolean isBackgroundCheck() {
-        return backgroundCheck;
-    }
-
-    public void setBackgroundCheck(boolean backgroundCheck) {
-        this.backgroundCheck = backgroundCheck;
-    }
 
     public String getName() {
         return name;
