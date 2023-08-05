@@ -8,7 +8,6 @@ import static cs655.hw5.part1.Alerts.New_Product;
 
 public class AlertService implements Bank {
     private final Map<Alerts, List<Listener>> customers;
-    private AlertService AlertSvc;
 
     public AlertService() {
         customers = new HashMap<>();
