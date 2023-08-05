@@ -3,14 +3,14 @@ package cs655.hw5.part1;
 public class InterestRateListener implements Listener{
 
     private String Name;
-    private Integer rate = 2;
+    private Integer Rate = 2;
 
     public Integer getRate() {
-        return rate;
+        return Rate;
     }
 
     public void setRate(Integer rate) {
-        this.rate = rate;
+        this.Rate = rate;
     }
 
     public String getName() {
@@ -23,6 +23,10 @@ public class InterestRateListener implements Listener{
 
     public InterestRateListener(String name) {
         Name = name;
+    }
+
+    public InterestRateListener(int rate) {
+        Rate = rate;
     }
 
     @Override
