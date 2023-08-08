@@ -1,5 +1,9 @@
 package cs655.Term_Project.General;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
+
 public class CSDepartment implements Department {
 
     String DeptName = "CSDepartment";
@@ -38,6 +42,32 @@ public class CSDepartment implements Department {
 
     public void setCertificateName(String certificateName) {
         CertificateName = certificateName;
+    }
+
+    public ArrayList<String> getFacultyInfo() {
+        Faculty FacInfo = new Faculty();
+        ArrayList<String> FacList = new ArrayList<>();
+        FacList.add(FacInfo.setChairperson("Andy"));
+        FacList.add(FacInfo.setFullTimeFaculty("Bill"));
+        FacList.add(FacInfo.setFullTimeUGAdvisor("David"));
+        FacList.add(FacInfo.setFullTimePGAdvisor("Messi"));
+        FacList.add(FacInfo.setPartTimeFaculty("Charlie"));
+        return FacList;
+    }
+
+
+    
+    public Map getCourseMapConc() {
+        Map ConcArea = new HashMap<>();
+        Map SubConcArea = new HashMap<>();
+        Courses showCourseList = new Courses(ConcArea,SubConcArea);
+        return showCourseList.CourseMap("");
+    }
+    public Map getCourseMapSubConc() {
+        Map ConcArea = new HashMap<>();
+        Map SubConcArea = new HashMap<>();
+        Courses showCourseList = new Courses(ConcArea,SubConcArea);
+        return showCourseList.CourseMap("Programming_Langauges");
     }
 
     @Override

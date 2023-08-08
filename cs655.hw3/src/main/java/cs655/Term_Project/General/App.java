@@ -7,6 +7,7 @@ public class App {
 
         CSDepartment CSDept = new CSDepartment();
         CSDept.setDeptName("Computer Science");
+        System.out.println(CSDept.getFacultyInfo());
 
         UnderGradDegree UG = new UnderGradDegree("UnderGrad");
         System.out.println(UG.getUnderGrad().get("CIS"));
@@ -17,11 +18,9 @@ public class App {
         CertificationProgram CertPGM = new CertificationProgram("CertPGM");
         System.out.println(CertPGM.getCertProgram().get("Security"));
 
+        System.out.println(CSDept.getCourseMapConc());
 
-
-
-
-
+        System.out.println(CSDept.getCourseMapSubConc());
 
     }
 }
