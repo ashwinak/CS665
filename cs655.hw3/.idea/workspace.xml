@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="76748df7-9740-46b8-9392-cce3e026f48e" name="Changes" comment="project commit 2">
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/General/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/General/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/General/CSDepartment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/General/CSDepartment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/General/Concentration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/General/Concentration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/General/Courses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/General/Courses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/General/Faculty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/General/Faculty.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/cs655/Term_Project/General/App.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/cs655/Term_Project/General/CSDepartment.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/cs655/Term_Project/General/Courses.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/cs655/Term_Project/General/Department.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/cs655/Term_Project/General/Faculty.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2TYUhFvj5CEPq1o3PLLBKFyggZ5" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/media/ashwinak/Ashwin-CBK/Work-PC/Desktop/My_DESK/Projects/Java&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;copyright.profiles&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Application.cs655.Term_Project.General.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cs655.hw5.part1.App" />
+      <module name="cs655.hw3.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cs655.hw5.part1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="cs655.Term_Project.General.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cs655.Term_Project.General.App" />
+      <module name="cs655.hw3.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cs655.Term_Project.General.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.cs655.Term_Project.General.App" />
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="76748df7-9740-46b8-9392-cce3e026f48e" name="Changes" comment="" />
+      <created>1691219624368</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1691219624368</updated>
+      <workItem from="1691219625454" duration="649000" />
+      <workItem from="1691293903907" duration="23189000" />
+      <workItem from="1691464255071" duration="13232000" />
+    </task>
+    <task id="LOCAL-00001" summary="project first commit">
+      <option name="closed" value="true" />
+      <created>1691355048562</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1691355048562</updated>
+    </task>
+    <task id="LOCAL-00002" summary="project commit 2">
+      <option name="closed" value="true" />
+      <created>1691393340987</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1691393340987</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="project first commit" />
+    <MESSAGE value="project commit 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="project commit 2" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
