@@ -1,6 +1,7 @@
 package cs655.Term_Project.General;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -55,8 +56,19 @@ public class CSDepartment implements Department {
         return FacList;
     }
 
+    public Map getFacultyCourseList() {
+        Faculty FacCourseList = new Faculty();
+        Map <String, ArrayList<String>> FacCLMap = new HashMap<>();
+        ArrayList<String> FacCL = new ArrayList<>();
+        FacCL.add(Concentration.Programming_Langauges.toString());
+        FacCL.add(Concentration.Software_Engineering.toString());
+        FacCL.add("Stu1");
+        FacCL.add("Stu2");
+        FacCL.add("Stu3");
+        FacCLMap.put("Andy",FacCL);
+        return FacCLMap;
+    }
 
-    
     public Map getCourseMapConc() {
         Map ConcArea = new HashMap<>();
         Map SubConcArea = new HashMap<>();
@@ -69,6 +81,57 @@ public class CSDepartment implements Department {
         Courses showCourseList = new Courses(ConcArea,SubConcArea);
         return showCourseList.CourseMap("Programming_Langauges");
     }
+
+    public Map getCourseChairPersonFaculty() {
+        Courses C1 = new Courses();
+        return C1.CourseChairPersonFaculty();
+    }
+
+    public Map getCourseFullTimeFaculty() {
+        Courses C1 = new Courses();
+        return C1.CourseFullTimeFaculty();
+    }
+
+    public Map getCourseInfo() {
+        Courses C1 = new Courses();
+        System.out.println(Arrays.toString(C1.CourseInfo().entrySet().toArray()));
+        return C1.CourseInfo();
+    }
+
+    public Map getStudentInfo() {
+        Students StuInfo = new Students();
+        Map <String, ArrayList<String>> StuInfoMap = new HashMap<>();
+        ArrayList<String> Stu1 = new ArrayList<>();
+        Stu1.add("Computer Science");
+        Stu1.add(Concentration.Software_Engineering.toString());
+        Stu1.add("Semester 1");
+        Stu1.add(StuInfo.setThesisAdvisor("Andy"));
+        Stu1.add("GPA is B");
+        StuInfoMap.put(StuInfo.setStudentName("Student1"),Stu1);
+        return StuInfoMap;
+    }
+    public Map getCourseListPerSememster() {
+        Courses CL = new Courses();
+        Map <String, ArrayList<String>> CLMap = new HashMap<>();
+        ArrayList<String> CL1 = new ArrayList<>();
+        CL1.add(Concentration.Software_Engineering.toString());
+        CL1.add(Concentration.Databases.toString());
+        CL1.add(Concentration.Programming_Langauges.toString());
+        CLMap.put("Semester1",CL1);
+        return CLMap;
+    }
+
+    public Map getStudentEnrolledPerCourse() {
+        Courses SL = new Courses();
+        Map <String, ArrayList<String>> SLMap = new HashMap<>();
+        ArrayList<String> SL1 = new ArrayList<>();
+        SL1.add("Stu1");
+        SL1.add("Stu2");
+        SL1.add("Stu3");
+        SLMap.put(Concentration.Programming_Langauges.toString(),SL1);
+        return SLMap;
+    }
+
 
     @Override
     public void DepartmentName(String DeptName) {

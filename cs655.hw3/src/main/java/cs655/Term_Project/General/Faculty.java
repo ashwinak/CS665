@@ -8,6 +8,8 @@ public class Faculty extends CSDepartment {
     String FullTimeFaculty;
     String FullTimeUGAdvisor;
     String FullTimePGAdvisor;
+    String PartTimeFaculty;
+
 
     public Faculty(String chairperson, String fullTimeFaculty, String fullTimeUGAdvisor, String fullTimePGAdvisor, String partTimeFaculty) {
         super();
@@ -30,7 +32,6 @@ public class Faculty extends CSDepartment {
     public Faculty() {
 
     }
-
 
     public String getChairperson() {
         return Chairperson;
@@ -76,5 +77,4 @@ public class Faculty extends CSDepartment {
         PartTimeFaculty = partTimeFaculty;
         return PartTimeFaculty;
     }
-    String PartTimeFaculty;
 }

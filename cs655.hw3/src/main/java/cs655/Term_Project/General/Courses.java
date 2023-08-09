@@ -11,6 +11,21 @@ public class Courses extends CSDepartment {
     String CourseDescription;
     String Syllabus;
 
+    String FacultyName;
+
+    public Courses() {
+
+    }
+
+    public String getFacultyName() {
+        return FacultyName;
+    }
+
+    public void setFacultyName(String facultyName) {
+        FacultyName = facultyName;
+    }
+
+
     public Courses(Map<Concentration, ArrayList<String>> concAreas, Map<Concentration, Map<Concentration, ArrayList<String>>> subConcAreas) {
         ConcAreas = concAreas;
         SubConcAreas = subConcAreas;
@@ -58,6 +73,45 @@ public class Courses extends CSDepartment {
         return ConcAreas;
     }
 
+    public Map CourseChairPersonFaculty() {
+        Faculty CourseFaculty = new Faculty();
+        Map FacultyMap = new HashMap<>();
+        //Setting Chair person for all Concentration
+        FacultyMap.put(Concentration.Databases,CourseFaculty.setChairperson("Andy"));
+        FacultyMap.put(Concentration.Systems,CourseFaculty.setChairperson("Andy"));
+        FacultyMap.put(Concentration.Programming_Langauges,CourseFaculty.setChairperson("Andy"));
+        FacultyMap.put(Concentration.Software_Engineering,CourseFaculty.setChairperson("Andy"));
+        return FacultyMap;
+    }
+
+    public Map CourseFullTimeFaculty() {
+        Faculty CourseFaculty = new Faculty();
+        Map FacultyMap = new HashMap<>();
+        //Setting Chair person for all Concentration
+        FacultyMap.put(Concentration.Databases,CourseFaculty.setChairperson("Bill"));
+        FacultyMap.put(Concentration.Systems,CourseFaculty.setChairperson("Bill"));
+        FacultyMap.put(Concentration.Programming_Langauges,CourseFaculty.setChairperson("Bill"));
+        FacultyMap.put(Concentration.Software_Engineering,CourseFaculty.setChairperson("Bill"));
+        return FacultyMap;
+    }
+
+    public Map CourseInfo() {
+        Courses C1 = new Courses();
+        Map<Concentration, String> CourseInfo = new HashMap<>();
+        CourseInfo.put(Concentration.Databases,"***Course Description1*** \n" +
+                "**Course Syllabus1**");
+        CourseInfo.put(Concentration.Systems,"***Course Description2*** \n" +
+                "**Course Syllabus2**");
+
+        CourseInfo.put(Concentration.Programming_Langauges,"***Course Description3*** \n" +
+                "**Course Syllabus3**");
+
+        CourseInfo.put(Concentration.Software_Engineering,"***Course Description4*** \n" +
+                "**Course Syllabus4**");
+
+        return CourseInfo;
+
+    }
 
     public String format() {
         //return html format of the course.
