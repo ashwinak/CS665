@@ -36,6 +36,21 @@ public class App {
         System.out.println(CSDept.getCourseListPerSememster());
         System.out.println(CSDept.getStudentEnrolledPerCourse());
 
+        Courses enroll = new Courses();
+        System.out.println(enroll.CourseEnrollORDrop("Adam",Concentration.Databases,true));
+        System.out.println(enroll.CourseEnrollORDrop("Jack",Concentration.Databases,true));
+        System.out.println(enroll.CourseEnrollORDrop("Messi",Concentration.Databases,true));
+        System.out.println(enroll.CourseEnrollORDrop("Peter",Concentration.Databases,true));
+
+        System.out.println("Now testing auto enroll");
+        System.out.println(enroll.CourseEnrollORDrop("Messi",Concentration.Databases,false));
+
+
+
+
+
+
+
 
     }
 }

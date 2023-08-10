@@ -74,6 +74,7 @@ public class Students extends CSDepartment {
         ThesisAdvisor = thesisAdvisor;
     }
 
+
     public double GPA(String GPA) {
         //Return GPA of the student. A=4,B=3,C=2,D=1,F=0
         if(Objects.equals(GPA, "A")) {
