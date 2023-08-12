@@ -4,24 +4,119 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76748df7-9740-46b8-9392-cce3e026f48e" name="Changes" comment="project commit 4 : No pattern commit with enroll and notify code">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/behavioral/Alerts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/behavioral/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/behavioral/CSDepartment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/behavioral/CertificationProgram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/behavioral/ChairPersonListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/behavioral/ClassDiagram_NoPattern.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/behavioral/Concentration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/behavioral/Courses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/behavioral/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/behavioral/Faculty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/behavioral/Listener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/behavioral/PostGradDegree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/behavioral/Students.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/behavioral/UnderGradDegree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="76748df7-9740-46b8-9392-cce3e026f48e" name="Changes" comment="Behavioral pattern 1 commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/behavioral/Observer/ClassDiagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/behavioral/Strategy/Alerts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/behavioral/Strategy/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/behavioral/Strategy/CSDepartment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/behavioral/Strategy/CalculatorStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/behavioral/Strategy/CertificationProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/behavioral/Strategy/ChairPersonListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/behavioral/Strategy/ClassDiagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/behavioral/Strategy/Concentration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/behavioral/Strategy/Courses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/behavioral/Strategy/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/behavioral/Strategy/Faculty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/behavioral/Strategy/GPAService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/behavioral/Strategy/Listener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/behavioral/Strategy/PostGradDegree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/behavioral/Strategy/Students.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/behavioral/Strategy/UnderGradDegree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/creational/AbstractFactory/Alerts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/creational/AbstractFactory/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/creational/AbstractFactory/CSDepartment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/creational/AbstractFactory/CSDeptDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/creational/AbstractFactory/CalculatorStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/creational/AbstractFactory/CertificationProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/creational/AbstractFactory/ChairPersonListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/creational/AbstractFactory/ClassDiagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/creational/AbstractFactory/Concentration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/creational/AbstractFactory/CourseDescription.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/creational/AbstractFactory/CourseStudentListProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/creational/AbstractFactory/CourseStudentListProxyImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/creational/AbstractFactory/CourseSyllabus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/creational/AbstractFactory/Courses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/creational/AbstractFactory/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/creational/AbstractFactory/Faculty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/creational/AbstractFactory/GPAService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/creational/AbstractFactory/Listener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/creational/AbstractFactory/PostGradDegree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/creational/AbstractFactory/PrintHTML.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/creational/AbstractFactory/Students.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/creational/AbstractFactory/SubConcentration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/creational/AbstractFactory/UnderGradDegree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/structural/Composite/Alerts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/structural/Composite/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/structural/Composite/CSDepartment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/structural/Composite/CalculatorStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/structural/Composite/CertificationProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/structural/Composite/ChairPersonListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/structural/Composite/ClassDiagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/structural/Composite/Concentration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/structural/Composite/CourseDescription.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/structural/Composite/CourseSyllabus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/structural/Composite/Courses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/structural/Composite/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/structural/Composite/Faculty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/structural/Composite/GPAService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/structural/Composite/Listener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/structural/Composite/PostGradDegree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/structural/Composite/PrintHTML.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/structural/Composite/Students.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/structural/Composite/SubConcentration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/structural/Composite/UnderGradDegree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/structural/Proxy/Alerts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/structural/Proxy/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/structural/Proxy/CSDepartment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/structural/Proxy/CSDeptDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/structural/Proxy/CalculatorStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/structural/Proxy/CertificationProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/structural/Proxy/ChairPersonListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/structural/Proxy/ClassDiagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/structural/Proxy/Concentration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/structural/Proxy/CourseDescription.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/structural/Proxy/CourseStudentListProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/structural/Proxy/CourseStudentListProxyImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/structural/Proxy/CourseSyllabus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/structural/Proxy/Courses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/structural/Proxy/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/structural/Proxy/Faculty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/structural/Proxy/GPAService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/structural/Proxy/Listener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/structural/Proxy/PostGradDegree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/structural/Proxy/PrintHTML.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/structural/Proxy/Students.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/structural/Proxy/SubConcentration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/structural/Proxy/UnderGradDegree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/General/ClassDiagram_NoPattern.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/General/ClassDiagram_NoPattern.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/General/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/common/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/General/CSDepartment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/common/CSDepartment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/General/CertificationProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/common/CertificationProgram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/General/ClassDiagram_NoPattern.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/General/Concentration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/common/Concentration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/General/Courses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/common/Courses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/General/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/common/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/General/Faculty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/common/Faculty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/General/PostGradDegree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/common/PostGradDegree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/General/Students.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/common/Students.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/General/UnderGradDegree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/common/UnderGradDegree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/behavioral/Alerts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/behavioral/Observer/Alerts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/behavioral/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/behavioral/Observer/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/behavioral/CSDepartment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/behavioral/Observer/CSDepartment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/behavioral/CertificationProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/behavioral/Observer/CertificationProgram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/behavioral/ChairPersonListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/behavioral/Observer/ChairPersonListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/behavioral/ClassDiagram_NoPattern.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/common/ClassDiagram_NoPattern.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/behavioral/Concentration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/behavioral/Observer/Concentration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/behavioral/Courses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/behavioral/Observer/Courses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/behavioral/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/behavioral/Observer/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/behavioral/Faculty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/behavioral/Observer/Faculty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/behavioral/Listener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/behavioral/Observer/Listener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/behavioral/PostGradDegree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/behavioral/Observer/PostGradDegree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/behavioral/Students.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/behavioral/Observer/Students.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/behavioral/UnderGradDegree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/behavioral/Observer/UnderGradDegree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/common/App" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,10 +144,20 @@
     <setting file="file://$PROJECT_DIR$/src/main/java/cs655/Term_Project/General/Courses.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/cs655/Term_Project/General/Department.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/cs655/Term_Project/General/Faculty.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/cs655/Term_Project/behavioral/App.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/cs655/Term_Project/behavioral/CSDepartment.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/cs655/Term_Project/behavioral/ChairPersonListener.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/cs655/Term_Project/behavioral/Courses.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/cs655/Term_Project/behavioral/Strategy/App.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/cs655/Term_Project/behavioral/Strategy/CSDepartment.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/cs655/Term_Project/behavioral/Strategy/CalculatorStrategy.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/cs655/Term_Project/behavioral/Strategy/ChairPersonListener.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/cs655/Term_Project/behavioral/Strategy/Courses.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/cs655/Term_Project/behavioral/Strategy/Students.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/cs655/Term_Project/structural/Composite/App.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/cs655/Term_Project/structural/Composite/CourseDescription.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/cs655/Term_Project/structural/Composite/CourseSyllabus.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/cs655/Term_Project/structural/Composite/Courses.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/cs655/Term_Project/structural/Proxy/App.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/cs655/Term_Project/structural/Proxy/CSDepartment.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/cs655/Term_Project/structural/Proxy/CourseStudentListProxyImpl.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/cs655/Term_Project/structural/Proxy/Courses.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -65,48 +170,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/media/ashwinak/Ashwin-CBK/Work-PC/Desktop/My_DESK/Projects/Java/CS665/cs655.hw3/src/main/java/cs655/Term_Project/behavioral&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;copyright.profiles&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/media/ashwinak/Ashwin-CBK/Work-PC/Desktop/My_DESK/Projects/Java/CS665/cs655.hw3/src/main/java/cs655/Term_Project/creational/AbstractFactory",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "copyright.profiles",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/cs655/Term_Project/behavioral" />
+      <recent name="$PROJECT_DIR$/src/main/java/cs655/Term_Project/creational/AbstractFactory" />
+      <recent name="$PROJECT_DIR$/src/main/java/cs655/Term_Project/structural/other" />
+      <recent name="$PROJECT_DIR$/src/main/java/cs655/Term_Project/structural/Composite" />
+      <recent name="$PROJECT_DIR$/src/main/java/cs655/Term_Project/structural" />
+      <recent name="$PROJECT_DIR$/src/main/java/cs655/Term_Project/behavioral/Observer" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/cs655/Term_Project/structural/Composite" />
+      <recent name="$PROJECT_DIR$/src/main/java/cs655/Term_Project/behavioral/Command" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.cs655.Term_Project.behavioral.App">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cs655.hw5.part1.App" />
+      <option name="MAIN_CLASS_NAME" value="cs655.Term_Project.structural.Proxy.App" />
       <module name="cs655.hw3.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cs655.hw5.part1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="cs655.Term_Project.General.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cs655.Term_Project.General.App" />
-      <module name="cs655.hw3.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cs655.Term_Project.General.*" />
+          <option name="PATTERN" value="cs655.Term_Project.structural.Proxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +227,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="cs655.Term_Project.behavioral.Observer.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cs655.Term_Project.behavioral.Observer.App" />
+      <module name="cs655.hw3.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cs655.Term_Project.behavioral.Observer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="cs655.Term_Project.behavioral.Strategy.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cs655.Term_Project.behavioral.Strategy.App" />
+      <module name="cs655.hw3.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cs655.Term_Project.behavioral.Strategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="cs655.Term_Project.structural.Composite.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cs655.Term_Project.structural.Composite.App" />
+      <module name="cs655.hw3.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cs655.Term_Project.structural.Composite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.cs655.Term_Project.behavioral.App" />
-        <item itemvalue="Application.cs655.Term_Project.General.App" />
         <item itemvalue="Application.App" />
+        <item itemvalue="Application.cs655.Term_Project.structural.Composite.App" />
+        <item itemvalue="Application.cs655.Term_Project.behavioral.Observer.App" />
+        <item itemvalue="Application.cs655.Term_Project.behavioral.Strategy.App" />
+        <item itemvalue="Application.cs655.Term_Project.behavioral.App" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +290,8 @@
       <workItem from="1691553026881" duration="15429000" />
       <workItem from="1691639868556" duration="12229000" />
       <workItem from="1691656593033" duration="3165000" />
-      <workItem from="1691735110687" duration="8791000" />
+      <workItem from="1691735110687" duration="11660000" />
+      <workItem from="1691774077044" duration="30916000" />
     </task>
     <task id="LOCAL-00001" summary="project first commit">
       <option name="closed" value="true" />
@@ -199,7 +341,15 @@
       <option name="project" value="LOCAL" />
       <updated>1691656566848</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Behavioral pattern 1 commit">
+      <option name="closed" value="true" />
+      <created>1691744272434</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1691744272434</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,7 +362,8 @@
     <MESSAGE value="project commit 3" />
     <MESSAGE value="project commit 4 : No pattern commit" />
     <MESSAGE value="project commit 4 : No pattern commit with enroll and notify code" />
-    <option name="LAST_COMMIT_MESSAGE" value="project commit 4 : No pattern commit with enroll and notify code" />
+    <MESSAGE value="Behavioral pattern 1 commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Behavioral pattern 1 commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
