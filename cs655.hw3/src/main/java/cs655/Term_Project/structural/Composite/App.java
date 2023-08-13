@@ -52,7 +52,7 @@ public class App {
         System.out.println("*********");
 
         /*
-            Print html format of courses and syllabus
+            Here we Print HTML format of courses and syllabus for individual leaf level courses, parent level concentration and child level sub-concentration.
        */
 
         System.out.println();

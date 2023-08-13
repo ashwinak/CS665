@@ -1,4 +1,4 @@
-package cs655.Term_Project.common;
+package cs655.Term_Project.common_NoPattern;
 
 public enum Concentration {
     Systems,

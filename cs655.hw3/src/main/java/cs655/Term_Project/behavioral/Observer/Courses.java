@@ -56,7 +56,7 @@ public class Courses extends CSDepartment {
     }
 
     public void EnrollmentLimitReached() {
-        NotifyChairPerson(Alerts.Enrollment_Limit_Reached);
+        NotifyChairPerson(Alerts.Enrollment_Limit);
     }
 
     public String getFacultyName() {
@@ -176,27 +176,26 @@ public class Courses extends CSDepartment {
         if(Enroll == 1) {
             if (CourseLimit.get(Concentration.Systems) == 0) {
                 StudentWaitListSystems.add(StudentName);
+                System.out.println("Course limit reached for " + Concentration.Systems +". "+ StudentName + " will be waitlisted");
                 CourseWaitList.put(Concentration.Systems,StudentWaitListSystems);
-                System.out.println(Concentration.Systems.toString() + " is full");
                 return false;
             }
             else if (CourseLimit.get(Concentration.Databases)==0){
                 StudentWaitListDatabases.add(StudentName);
+                System.out.println("Course limit reached for " + Concentration.Databases +". "+ StudentName + " will be waitlisted");
                 CourseWaitList.put(Concentration.Databases,StudentWaitListDatabases);
-                System.out.println(StudentWaitListDatabases.toString());
-                System.out.println(Concentration.Databases.toString() + " is full");
                 return false;
             }
             else if (CourseLimit.get(Concentration.Software_Engineering)==0){
                 StudentWaitListSoftware_Engineering.add(StudentName);
+                System.out.println("Course limit reached for " + Concentration.Software_Engineering+". "+ StudentName + " will be waitlisted");
                 CourseWaitList.put(Concentration.Software_Engineering,StudentWaitListSoftware_Engineering);
-                System.out.println(Concentration.Software_Engineering.toString() + " is full");
                 return false;
             }
             else if (CourseLimit.get(Concentration.Programming_Langauges)==0){
                 StudentWaitListProgramming_Langauges.add(StudentName);
+                System.out.println("Course limit reached for " + Concentration.Programming_Langauges+". "+ StudentName + " will be waitlisted");
                 CourseWaitList.put(Concentration.Programming_Langauges,StudentWaitListProgramming_Langauges);
-                System.out.println(Concentration.Programming_Langauges.toString() + " is full");
                 return false;
             }
         }
@@ -225,52 +224,37 @@ public class Courses extends CSDepartment {
             switch (Course) {
                 case Databases:
                     CourseLimit.put(Concentration.Databases, CourseLimit.get(Concentration.Databases) + 1);
-                    System.out.println("Dropping " +StudentName+ " from " + Concentration.Databases.toString());
-
-                    break;
-                case Systems:
-                    CourseLimit.put(Concentration.Systems, CourseLimit.get(Concentration.Systems) + 1);
-                    System.out.println("Dropping " +StudentName+ " from " + Concentration.Systems.toString());
-                    break;
-                case Software_Engineering:
-                    CourseLimit.put(Concentration.Software_Engineering, CourseLimit.get(Concentration.Software_Engineering) + 1);
-                    System.out.println("Dropping " +StudentName+ " from " + Concentration.Software_Engineering.toString());
-                    break;
-                case Programming_Langauges:
-                    CourseLimit.put(Concentration.Programming_Langauges, CourseLimit.get(Concentration.Programming_Langauges) + 1);
-                    System.out.println("Dropping " +StudentName+ " from " + Concentration.Programming_Langauges.toString());
-                    break;
-            }
-            return true;
-        }
-        if(Enroll==0) {
-            switch (Course) {
-                case Databases:
-                    CourseLimit.put(Concentration.Databases, CourseLimit.get(Concentration.Databases) + 1);
                     if(!StudentWaitListDatabases.isEmpty()) {
-                        System.out.println("Dropping " +StudentName+ " from" + Concentration.Databases.toString());
-                        CourseEnrollORDrop(StudentWaitListDatabases.get(0), Concentration.Databases, 1,Alerts.Enrollment_Limit_Reached,
+                        System.out.println("Dropping " +StudentName+ " from " + Concentration.Databases.toString());
+                        System.out.println("Auto enroll first student from waitlist");
+                        CourseEnrollORDrop(StudentWaitListDatabases.get(0), Concentration.Databases, 1, Alerts.Enrollment_Limit,
                                 new ChairPersonListener("ChairPerson"));
                     }
                     break;
                 case Systems:
                     CourseLimit.put(Concentration.Systems, CourseLimit.get(Concentration.Systems) + 1);
                     if(!StudentWaitListSystems.isEmpty()) {
-                        CourseEnrollORDrop(StudentWaitListSystems.get(0), Concentration.Databases, 1,Alerts.Enrollment_Limit_Reached,
+                        System.out.println("Dropping " +StudentName+ " from " + Concentration.Systems.toString());
+                        System.out.println("Auto enroll first student from waitlist");
+                        CourseEnrollORDrop(StudentWaitListSystems.get(0), Concentration.Databases, 1, Alerts.Enrollment_Limit,
                                 new ChairPersonListener("ChairPerson"));
                     }
                     break;
                 case Software_Engineering:
                     CourseLimit.put(Concentration.Software_Engineering, CourseLimit.get(Concentration.Software_Engineering) + 1);
                     if(!StudentWaitListSoftware_Engineering.isEmpty()) {
-                        CourseEnrollORDrop(StudentWaitListSoftware_Engineering.get(0), Concentration.Databases, 1,Alerts.Enrollment_Limit_Reached,
+                        System.out.println("Dropping " +StudentName+ " from " + Concentration.Software_Engineering.toString());
+                        System.out.println("Auto enroll first student from waitlist");
+                        CourseEnrollORDrop(StudentWaitListSoftware_Engineering.get(0), Concentration.Databases, 1, Alerts.Enrollment_Limit,
                                 new ChairPersonListener("ChairPerson"));
                     }
                     break;
                 case Programming_Langauges:
                     CourseLimit.put(Concentration.Programming_Langauges, CourseLimit.get(Concentration.Programming_Langauges) + 1);
                     if(!StudentWaitListProgramming_Langauges.isEmpty()) {
-                        CourseEnrollORDrop(StudentWaitListProgramming_Langauges.get(0), Concentration.Databases, 1,Alerts.Enrollment_Limit_Reached,
+                        System.out.println("Dropping " +StudentName+ " from " + Concentration.Programming_Langauges.toString());
+                        System.out.println("Auto enroll first student from waitlist");
+                        CourseEnrollORDrop(StudentWaitListProgramming_Langauges.get(0), Concentration.Databases, 1, Alerts.Enrollment_Limit,
                                 new ChairPersonListener("ChairPerson"));
                     }
                     break;
