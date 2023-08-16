@@ -63,7 +63,7 @@ public abstract class Transaction {
                     account.getAccountId(),
                     this.description,
                     this.transactionAmount,
-                    this.transactionOwner.getName(),
+                    this.transactionOwner.getCustomerName(),
                     this.getEndingBalance());
         }
         else {
@@ -71,7 +71,7 @@ public abstract class Transaction {
                     DateFormat.getDateInstance().format(this.transactionDate),
                     this.description,
                     this.transactionAmount,
-                    this.transactionOwner.getName());
+                    this.transactionOwner.getCustomerName());
         }
 
     }

@@ -5,7 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f0b78ff-b151-4dad-ae83-630c66a85834" name="Changes" comment="Week2 - Final commit.">
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4.2/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4.2/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4.2/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/ashwinak/cs665/hw2/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/ashwinak/cs665/hw2/Account.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/ashwinak/cs665/hw2/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/ashwinak/cs665/hw2/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/ashwinak/cs665/hw2/Bank$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/ashwinak/cs665/hw2/Bank$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/ashwinak/cs665/hw2/Bank.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/ashwinak/cs665/hw2/Bank.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/ashwinak/cs665/hw2/CheckingAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/ashwinak/cs665/hw2/CheckingAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/ashwinak/cs665/hw2/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/ashwinak/cs665/hw2/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/ashwinak/cs665/hw2/Transaction.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/ashwinak/cs665/hw2/Transaction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/ashwinak/cs665/hw2/TransferTransaction.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/ashwinak/cs665/hw2/TransferTransaction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/ashwinak/cs665/hw2/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ashwinak/cs665/hw2/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/ashwinak/cs665/hw2/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ashwinak/cs665/hw2/Bank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/ashwinak/cs665/hw2/CheckingAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ashwinak/cs665/hw2/CheckingAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/ashwinak/cs665/hw2/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ashwinak/cs665/hw2/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/ashwinak/cs665/hw2/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ashwinak/cs665/hw2/Transaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/ashwinak/cs665/hw2/TransferTransaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ashwinak/cs665/hw2/TransferTransaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cs655.hw3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cs655.hw3/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,18 +59,30 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/app/src/main/java/ashwinak/cs665/hw2/Account.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/app/src/main/java/ashwinak/cs665/hw2/App.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/app/src/main/java/ashwinak/cs665/hw2/AssertDemo.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/app/src/main/java/ashwinak/cs665/hw2/Bank.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/app/src/main/java/ashwinak/cs665/hw2/Customer.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/app/src/main/java/ashwinak/cs665/hw2/Transaction.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2SAC6muX1A0EymtMRpbSE3lSR5n" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -81,6 +117,21 @@
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ashwinak.cs665.hw2.App" />
       <module name="cs665_hw2_ashwinak.app.main" />
+      <option name="VM_PARAMETERS" value="-enableassertions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ashwinak.cs665.hw2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AssertDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ashwinak.cs665.hw2.AssertDemo" />
+      <module name="cs665_hw2_ashwinak.app.main" />
+      <option name="VM_PARAMETERS" value="-enableassertions" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ashwinak.cs665.hw2.*" />
@@ -110,11 +161,17 @@
       <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>false</ForceTestExec>
+      <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Application.App" />
+      <item itemvalue="Application.AssertDemo" />
+      <item itemvalue="Gradle.CS665:app [build]" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AssertDemo" />
         <item itemvalue="Application.App" />
         <item itemvalue="Gradle.CS665:app [build]" />
       </list>
@@ -135,6 +192,8 @@
       <workItem from="1689290308411" duration="18206000" />
       <workItem from="1689525854229" duration="33392000" />
       <workItem from="1689813078760" duration="2270000" />
+      <workItem from="1691974812505" duration="7786000" />
+      <workItem from="1692069657228" duration="9329000" />
     </task>
     <task id="LOCAL-00001" summary="Week2 - first commit">
       <option name="closed" value="true" />

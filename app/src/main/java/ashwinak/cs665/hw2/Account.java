@@ -3,6 +3,7 @@ package ashwinak.cs665.hw2;
 import ashwinak.cs665.hw2.enumTypes.AccountStatus;
 import ashwinak.cs665.hw2.exceptions.BankException;
 
+import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
 import java.util.ArrayList;
@@ -137,15 +138,18 @@ public abstract class Account {
 
     public void printStatement(Date toDate) {
 
-        System.out.println("\n\tTransactions for Account " + this.accountId + " Primary Owner: " + this.primaryOwner.getName() + "\n");
+        System.out.println("\n\tTransactions for Account " + this.accountId + " Primary Owner: " + this.primaryOwner.getCustomerName() + "\n");
 
         /* Fill in the code to iterate over the transactionList and invoke the print method for each transaction */
+//        System.out.println("Before refactor");
+//        for (Transaction tran : transactionList) {
+//            if (toDate.compareTo(tran.getTransactionDate()) >= 0){
+//                tran.print(this);
+//            }
+//        }
+//        System.out.println("After refactor");
+        transactionList.stream().filter(tran -> (toDate.compareTo(tran.getTransactionDate()) >= 0)).forEach(tran ->tran.print(this));
 
-        for (Transaction tran : transactionList) {
-            if (toDate.compareTo(tran.getTransactionDate()) >= 0){
-                tran.print(this);
-            }
-        }
     }
 }
 

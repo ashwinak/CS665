@@ -4,31 +4,62 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76748df7-9740-46b8-9392-cce3e026f48e" name="Changes" comment="Term Project : with updated class diagrams">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/common_NoPattern/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/common_NoPattern/ClassDiagram_NoPattern.png" afterDir="false" />
+    <list default="true" id="76748df7-9740-46b8-9392-cce3e026f48e" name="Changes" comment="Term Project : Final commit-v1">
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Refactoring_Examples/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Refactoring_Examples/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Refactoring_Examples/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Refactoring_Examples/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Refactoring_Examples/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Refactoring_Examples/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Refactoring_Examples/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Refactoring_Examples/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Refactoring_Examples/app/src/main/java/Refactoring_Examples/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Refactoring_Examples/app/src/main/java/cs665/extract/method/after/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Refactoring_Examples/app/src/main/java/cs665/extract/method/before/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Refactoring_Examples/app/src/main/java/cs665/extract/variables/after/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Refactoring_Examples/app/src/main/java/cs665/extract/variables/before/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Refactoring_Examples/app/src/main/java/cs665/inline/method/after/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Refactoring_Examples/app/src/main/java/cs665/inline/method/before/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Refactoring_Examples/app/src/main/java/cs665/replace/temp/with/query/after/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Refactoring_Examples/app/src/main/java/cs665/replace/temp/with/query/before/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Refactoring_Examples/app/src/main/java/cs665/simplifying/conditional/after/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Refactoring_Examples/app/src/main/java/cs665/simplifying/conditional/before/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Refactoring_Examples/app/src/test/java/Refactoring_Examples/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Refactoring_Examples/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Refactoring_Examples/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Refactoring_Examples/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Refactoring_Examples/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs655/Refactoring_Examples/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gradle/7.4.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/7.4.2/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gradle/7.4.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/7.4.2/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gradle/7.4.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/7.4.2/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gradle/7.4.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/7.4.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gradle/7.4.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/7.4.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/build/classes/java/main/ashwinak/cs665/hw2/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/../app/build/classes/java/main/ashwinak/cs665/hw2/Account.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/build/classes/java/main/ashwinak/cs665/hw2/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/../app/build/classes/java/main/ashwinak/cs665/hw2/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/build/classes/java/main/ashwinak/cs665/hw2/Bank$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../app/build/classes/java/main/ashwinak/cs665/hw2/Bank$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/build/classes/java/main/ashwinak/cs665/hw2/Bank.class" beforeDir="false" afterPath="$PROJECT_DIR$/../app/build/classes/java/main/ashwinak/cs665/hw2/Bank.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/build/classes/java/main/ashwinak/cs665/hw2/CheckingAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/../app/build/classes/java/main/ashwinak/cs665/hw2/CheckingAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/build/classes/java/main/ashwinak/cs665/hw2/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../app/build/classes/java/main/ashwinak/cs665/hw2/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/build/classes/java/main/ashwinak/cs665/hw2/Transaction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../app/build/classes/java/main/ashwinak/cs665/hw2/Transaction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/build/classes/java/main/ashwinak/cs665/hw2/TransferTransaction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../app/build/classes/java/main/ashwinak/cs665/hw2/TransferTransaction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/build/scripts/app.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../app/build/scripts/app.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../app/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/build/tmp/jar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../app/build/tmp/jar/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/ashwinak/cs665/hw2/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/ashwinak/cs665/hw2/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/ashwinak/cs665/hw2/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/ashwinak/cs665/hw2/Bank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/ashwinak/cs665/hw2/CheckingAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/ashwinak/cs665/hw2/CheckingAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/ashwinak/cs665/hw2/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/ashwinak/cs665/hw2/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/ashwinak/cs665/hw2/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/ashwinak/cs665/hw2/Transaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/ashwinak/cs665/hw2/TransferTransaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/ashwinak/cs665/hw2/TransferTransaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/behavioral/Observer/Alerts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/behavioral/Observer/Alerts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/behavioral/Observer/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/behavioral/Observer/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/behavioral/Observer/ClassDiagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/behavioral/Observer/ClassDiagram.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/behavioral/Observer/Courses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/behavioral/Observer/Courses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/behavioral/Strategy/ClassDiagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/behavioral/Strategy/ClassDiagram.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/common/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/common/CSDepartment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/common_NoPattern/CSDepartment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/common/CertificationProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/common_NoPattern/CertificationProgram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/common/ClassDiagram_NoPattern.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/common/Concentration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/common_NoPattern/Concentration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/common/Courses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/common_NoPattern/Courses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/common/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/common_NoPattern/Department.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/common/Faculty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/common_NoPattern/Faculty.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/common/PostGradDegree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/common_NoPattern/PostGradDegree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/common/Students.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/common_NoPattern/Students.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/common/UnderGradDegree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/common_NoPattern/UnderGradDegree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/creational/AbstractFactoryPattern/ClassDiagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/creational/AbstractFactoryPattern/ClassDiagram.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/creational/Singleton/ClassDiagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/creational/Singleton/ClassDiagram.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/structural/Composite/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/structural/Composite/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/structural/Composite/ClassDiagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/structural/Composite/ClassDiagram.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/structural/Proxy/ClassDiagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs655/Term_Project/structural/Proxy/ClassDiagram.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../gradlew.bat" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +70,18 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -98,23 +141,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/media/ashwinak/Ashwin-CBK/Work-PC/Desktop/My_DESK/Projects/Java/CS665/cs655.hw3/src/main/java/cs655/Term_Project/creational/FactoryDesign&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;copyright.profiles&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/ashwinak/Projects/Java/CS665/cs655.hw3",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "copyright.profiles",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/cs655/Term_Project/creational/FactoryDesign" />
@@ -222,7 +265,11 @@
       <workItem from="1691774077044" duration="48158000" />
       <workItem from="1691919239164" duration="319000" />
       <workItem from="1691946651081" duration="4360000" />
-      <workItem from="1691951388598" duration="7561000" />
+      <workItem from="1691951388598" duration="7771000" />
+      <workItem from="1691974655977" duration="155000" />
+      <workItem from="1692157153996" duration="385000" />
+      <workItem from="1692157560335" duration="62000" />
+      <workItem from="1692157960643" duration="4016000" />
     </task>
     <task id="LOCAL-00001" summary="project first commit">
       <option name="closed" value="true" />
@@ -304,7 +351,15 @@
       <option name="project" value="LOCAL" />
       <updated>1691919558751</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Term Project : Final commit-v1">
+      <option name="closed" value="true" />
+      <created>1691961091651</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1691961091651</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -321,7 +376,8 @@
     <MESSAGE value="Commit 4 patterns(Structural and Behavioral)" />
     <MESSAGE value="Term Project : All pattern check-in." />
     <MESSAGE value="Term Project : with updated class diagrams" />
-    <option name="LAST_COMMIT_MESSAGE" value="Term Project : with updated class diagrams" />
+    <MESSAGE value="Term Project : Final commit-v1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Term Project : Final commit-v1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -3,7 +3,6 @@ package ashwinak.cs665.hw2;
 import ashwinak.cs665.hw2.enumTypes.AccountType;
 import ashwinak.cs665.hw2.enumTypes.TransactionType;
 import ashwinak.cs665.hw2.exceptions.BankException;
-import ashwinak.cs665.hw2.Account;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -31,7 +30,7 @@ public class Bank {
     public synchronized Customer createCustomer(String customerName, String customerId, Date registrationDate)
             throws BankException {
         /* Fill in the code and return the Customer. Exception if customerId already exists */
-        Customer cust = new Customer(customerName,customerId,registrationDate);
+        Customer cust = new Customer(customerName, customerId,registrationDate);
         try {
             if (customerMap.containsKey(customerId)) {
                 throw new BankException("Customer ID Already Exist");
@@ -121,6 +120,15 @@ public class Bank {
          - Based on the transactionType, invoke makeDeposit(...), or makeWithdrawal(...), or makeTransfer(...)
          - The destinationAccountId is only applicable if this is a Transfer request
          */
+
+        try {
+            assert amount >= 0;
+
+        } catch (AssertionError e) {
+            System.out.println(e.getMessage() + " Assertion triggered due to invalid amount of " + amount);
+            System.exit(1);
+        }
+
         switch (transactionType) {
             case Deposit -> {
                 makeDeposit(date,amount,customerId,sourceAccountId);

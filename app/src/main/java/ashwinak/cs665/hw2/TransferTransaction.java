@@ -39,7 +39,7 @@ public class TransferTransaction extends Transaction {
                 DateFormat.getDateInstance().format(this.getTransactionDate()),
                 this.getDescription(),
                 this.getTransactionAmount(),
-                this.getTransactionOwner().getName());
+                this.getTransactionOwner().getCustomerName());
 
     }
 
